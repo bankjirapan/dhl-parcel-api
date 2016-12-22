@@ -1,0 +1,19 @@
+{
+    "name": "gunjanpatel/dhl-parcel-api",
+    "type": "application",
+    "description": "A configurable and extensible DHL Parcel Business customer shipping API",
+    "keywords": ["dhl", "business", "shipping", "shipment"],
+    "license": "MIT",
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "authors": [
+        {
+            "name": "Gunjan Patel",
+            "email": "gunjan@hobbii.dk"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"DHL\\": "src/"}
+    }
+}
