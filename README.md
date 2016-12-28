@@ -34,11 +34,11 @@ cp etc/config.dist.json etc/config.json
 
 require_once __DIR__ . '/vendor/autoload.php';
 
-use \DHL\Client\Soap as DhlSoapClient;
-use \DHL\Data\Shipper;
-use \DHL\Data\Receiver;
-use \DHL\Data\Shipment as ShipmentDetail;
-use \DHL\Request\Business\CreateShipment;
+use DHL\Client\Soap as DhlSoapClient;
+use DHL\Data\Shipper;
+use DHL\Data\Receiver;
+use DHL\Data\Shipment as ShipmentDetail;
+use DHL\Request\Business\CreateShipment;
 
 // Our company info
 $shipper = new Shipper(
@@ -107,7 +107,7 @@ echo "</pre>";
 
 require_once __DIR__ . '/vendor/autoload.php';
 
-use \DHL\Client\Soap as DhlSoapClient;
+use DHL\Client\Soap as DhlSoapClient;
 use DHL\Request\Business\Label;
 
 $client = new DhlSoapClient(true);

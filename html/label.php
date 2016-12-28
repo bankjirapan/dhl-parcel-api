@@ -2,7 +2,7 @@
 
 require_once __DIR__ . '/../vendor/autoload.php';
 
-use \DHL\Client\Soap as DhlSoapClient;
+use DHL\Client\Soap as DhlSoapClient;
 use DHL\Request\Business\Label;
 
 class Dhl {

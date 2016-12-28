@@ -2,11 +2,11 @@
 
 require_once __DIR__ . '/../vendor/autoload.php';
 
-use \DHL\Client\Soap as DhlSoapClient;
-use \DHL\Data\Shipper;
-use \DHL\Data\Receiver;
-use \DHL\Data\Shipment as ShipmentDetail;
-use \DHL\Request\Business\CreateShipment;
+use DHL\Client\Soap as DhlSoapClient;
+use DHL\Data\Shipper;
+use DHL\Data\Receiver;
+use DHL\Data\Shipment as ShipmentDetail;
+use DHL\Request\Business\CreateShipment;
 
 class Dhl {
 
