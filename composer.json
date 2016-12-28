@@ -1,8 +1,8 @@
 {
     "name": "gunjanpatel/dhl-parcel-api",
     "type": "application",
-    "description": "A configurable and extensible DHL Parcel Business customer shipping API",
-    "keywords": ["dhl", "business", "shipping", "shipment"],
+    "description": "The DHL Parcel Business customer shipping API. DHL developer account required.",
+    "keywords": ["dhl", "business", "shipping", "shipment", "parcel", "soap", "php"],
     "license": "MIT",
     "require": {
         "php": ">=5.3.0"
